@@ -1,18 +1,47 @@
 class Solution {
-    public int[] topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> f = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            f.put(nums[i], f.getOrDefault(nums[i], 0) + 1);
+    public static int[] topKFrequent(int[] nums, int k) {
+
+  int min=Integer.MAX_VALUE;
+        int max=Integer.MIN_VALUE;
+        for(int num:nums)
+        {
+            if(num>max)max=num;
+            if(num<min)min=num;
         }
-        List<int[]> p = new ArrayList<>();
-        for (Map.Entry<Integer, Integer> entry : f.entrySet()) {
-            p.add(new int[]{entry.getValue(), entry.getKey()});
+        int[] freq=new int[max-min+1];
+        int highestFreq=0;
+        for(int i:nums)
+        {
+            int indx=i-min;
+            int count=++freq[indx];
+            if(count>highestFreq)highestFreq=count;
         }
-        p.sort((a, b) -> Integer.compare(b[0], a[0]));
-        int[] res = new int[k];
-        for (int i = 0; i < k; i++) {
-            res[i] = p.get(i)[1];
+        ArrayList<Integer>[] bucketList=new ArrayList[highestFreq];
+        for(int i=0;i<freq.length;i++)
+        {
+            int freqIndex =freq[i]-1;
+            if(freqIndex ==-1)continue;
+            if(bucketList[freqIndex]==null)
+                bucketList[freqIndex ]=new ArrayList<>();
+           bucketList[freqIndex ].add(i+min);
         }
-        return res;
+        int[] result=new int[k];
+        int indx=0;
+        for (int i=highestFreq-1;i>=0;i--)
+        {
+            if(bucketList[i]==null)continue;
+            for(int num:bucketList[i])
+            {
+                result[indx++]=num;
+                if(indx==k)return result;
+            }
+        }
+        return result;
+    }
+    static {
+        int[] input = {1, 1, 2, 2, 3};
+        for (int i = 0; i < 200; i++) {
+            topKFrequent(input, 2);
+        }
     }
 }

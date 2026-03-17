@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
+| [0131-palindrome-partitioning](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0131-palindrome-partitioning) |
 | [0242-valid-anagram](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
 |  |
@@ -50,4 +51,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0131-palindrome-partitioning) |
+## Backtracking
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->

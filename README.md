@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
+| [0389-find-the-difference](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0389-find-the-difference) |
 | [0424-longest-repeating-character-replacement](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0424-longest-repeating-character-replacement) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 ## Sorting
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
+| [0389-find-the-difference](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0389-find-the-difference) |
 ## String
 |  |
 | ------- |
@@ -46,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0131-palindrome-partitioning) |
 | [0242-valid-anagram](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
+| [0389-find-the-difference](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0389-find-the-difference) |
 | [0424-longest-repeating-character-replacement](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0424-longest-repeating-character-replacement) |
 ## Divide and Conquer
 |  |
@@ -118,4 +121,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0232-implement-queue-using-stacks) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0389-find-the-difference](https://github.com/AruneshJaitly/75DaysLeetCodeChallenge/tree/master/0389-find-the-difference) |
 <!---LeetCode Topics End-->
